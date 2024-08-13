@@ -6,8 +6,19 @@ const Footer = () => {
     <div class="footer-player">
           <div className='player-content'>
             <img src={catty} alt="CattyBoard Small Logo" />
-            <span>If It Ain't Love</span><br />
-            <span className='sp01'>Catson Derulo</span>
+            <div className="Sname">
+            <span>If It Ain't Love</span>
+            <span>Catson Derulo</span>
+            <section className='footer_icon'>
+            <i className="la la-step-backward"></i>
+          <i className="la la-play"></i>
+          <i className="la la-step-forward"></i>
+          <i className="la la-undo-alt"></i>
+          <i className="la la-random"></i>
+            </section>
+            
+            </div>
+            
           </div>
         </div>
   )
